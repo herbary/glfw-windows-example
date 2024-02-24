@@ -1,0 +1,5 @@
+*.lib binary
+*.dll binary
+
+*.bat linguist-vendored
+/ext/** linguist-vendored

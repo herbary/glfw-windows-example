@@ -1,0 +1,18 @@
+#ifndef HERBARY_GLFW_WINDOWS_EXAMPLE_LOCAL__DEFINE_GLFW_H_INCLUDED
+#define HERBARY_GLFW_WINDOWS_EXAMPLE_LOCAL__DEFINE_GLFW_H_INCLUDED
+
+#include "glfw/glfw3.h"
+
+typedef GLFWwindow glfw_window_t;
+
+#define glfw_init glfwInit
+#define glfw_window_hint glfwWindowHint
+#define glfw_create_window glfwCreateWindow
+#define glfw_terminate glfwTerminate
+#define glfw_make_context_current glfwMakeContextCurrent
+#define glfw_set_framebuffer_size_callback glfwSetFramebufferSizeCallback
+#define glfw_poll_events glfwPollEvents
+#define glfw_window_should_close glfwWindowShouldClose
+#define glfw_swap_buffers glfwSwapBuffers
+
+#endif // HERBARY_GLFW_WINDOWS_EXAMPLE_LOCAL__DEFINE_GLFW_H_INCLUDED
