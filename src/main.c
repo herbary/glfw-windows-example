@@ -72,13 +72,12 @@ int main(void) {
             break;
         }
 
-        gl_clear_color(1, 192.f/255, 203.f/255, 0);
+        gl_clear_color(1, 0.752f /* 192/255 */, 0.796f /* 203/255 */, 0);
         gl_clear(GL_COLOR_BUFFER_BIT);
 
         glfw_swap_buffers(window);
 
-        static const uint32_t frame_time = 1000 / 60;
-        util_sleep(frame_time);
+        util_sleep(16 /* 1000/60 */);
     } while (true);
 
     glfw_terminate();
